@@ -1,0 +1,11 @@
+html{
+width: 1200px;
+margin: auto;
+}
+@media screen and (max-width: 600px) {
+    html{
+        width: 550px;
+        margin: auto;
+        
+        }
+}
