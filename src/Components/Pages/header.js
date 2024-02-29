@@ -10,28 +10,18 @@ export default function Headers()
         setshowHiddenBar(!showHiddenBar);
     }
     return(
-        <div className='Container_Head'>
-            <div className='LeftSide'>
-                <div className='ProfileName'>
-                <Link to='./home'><h1 className='Name'>Chaitanya Vidudhala</h1></Link>
-                </div>
-                <button className='More' onClick={showBar}>
-                        <NavigationIcon />
-                </button>
-                <div className={`HiddenNavigationBar${showHiddenBar ? 'show' : ''}`}>
-                    <Link to='./resume'>Resume</Link>
-                    <Link to='./skills'>Skills</Link>
-                    <Link to='./certifications'>Certifications</Link>
-                    <Link to='./contact'>Contact</Link>
-                </div>
+        <div className='Header'>
+            <div className='LeftHeader'>
+                <h1>Chaitanya Vidudhala</h1>
             </div>
-            <div className='RightSide'>
-                <div className='NavigationBar'>
-                    <Link to='./resume'>Resume</Link>
-                    <Link to='./skills'>Skills</Link>
-                    <Link to='./certifications'>Certifications</Link>
-                    <Link to='./contact'>Contact</Link>
-                </div>
+            <div className='Navigation'>
+                <Link>About Me</Link>
+                <Link>Projects</Link>
+                <Link>Skills</Link>
+                <Link>Contact</Link>
+            </div>
+            <div className='RightHeader'>
+                <button aria-placeholder='Hire'>Hire</button>
             </div>
         </div>
     );

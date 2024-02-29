@@ -2,17 +2,15 @@
 import './Components/Style/App.css';
 import Header from './Components/Pages/header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Resume from './Components/Pages/resume';
-import Footer from './Components/Pages/Footer';
+import Main from './Components/Pages/Main';
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path='/Resume' element={<Resume />} />
-      </Routes>
-      <Footer />
+        <Route path='/' element={<Main />}/>
+      </Routes> 
     </Router>
   );
 }
