@@ -1,0 +1,47 @@
+.ProtfolioContainer
+{
+    margin-top: 40px;
+    display: grid;
+}
+.ProtfolioHeading{
+    text-align: center;
+    line-height: 5px;
+    
+}
+.ProtfolioImages{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ProtfolioImages>img{
+    height: 400px;
+}
+.ProtfolioFooter
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px;
+    margin-left: 140px;
+}
+.ProtfolioFooter>h1{
+    width: 460px;
+    margin-right: 100px;
+}
+.FooterButton
+{
+    text-align: center;
+    margin-top: 0px;
+    width: 400px;
+    margin-right: 10px;
+
+}
+.ProtfolioFooter>h1{
+    font-weight: 600;
+    font-size: x-large;
+}
+.FooterButton>p{
+    font-size: larger;
+}

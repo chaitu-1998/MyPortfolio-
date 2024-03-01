@@ -24,7 +24,7 @@ h1{
 }
 p{
     font-family: "Open Sans-Regular", Helvetica;
-    font-weight: 400;
+    font-weight: 300;
 }
 .Para>a{
     height: 20px;
@@ -36,4 +36,6 @@ p{
     text-decoration: none;
     background: #000000d6;
     border-radius: 25px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
