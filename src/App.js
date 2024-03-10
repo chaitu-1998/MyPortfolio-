@@ -1,9 +1,11 @@
 
 import './Components/Style/App.css';
-import Header from './Components/Pages/header';
+import Header from './Components/Pages/MainPages/header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Main from './Components/Pages/Main';
-import Footer from './Components/Pages/Footer';
+import Main from './Components/Pages/MainPages/Main';
+import Footer from './Components/Pages/MainPages/Footer';
+import MainSkills from './Components/Pages/MainPages/MainSkills';
+import Contact from './Components/Pages/MainPages/contact';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Main />}/>
+        <Route path='/MainSkills' element={< MainSkills />}/>
+        <Route path='/Contact' element={< Contact />}/>
       </Routes> 
       <Footer />
     </Router>

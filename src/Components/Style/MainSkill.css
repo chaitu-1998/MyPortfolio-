@@ -1,0 +1,101 @@
+.ImageSkill img {
+    height: 150px;
+    width: 100px;
+    margin-top: 95px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-right: 0px;
+    position: relative;
+    left: 25%;
+    cursor: pointer;
+    box-shadow: 4px 5px 25px #010101;
+  }
+.ImageSkill{
+
+    height: 355px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+/* .ImageSkill::before{
+    content: '';
+    position: absolute;
+    background-image: url('../Design/background.jpeg');
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+    width: 900px;
+    height: 415px;
+    margin-left: 105px;
+    box-shadow: 5px 5px 19px #626467;
+
+}  */
+.SkillPara{
+    text-align: center;
+}
+.TechHead{
+    text-align: center;
+}
+.TechSkill{
+    display: flex;
+    justify-content: space-around;
+}
+.Language,.FrameWorks{
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+.ImageSkill>img:hover{
+    transform: scale(1);
+    margin-top: 50px;
+    width: 185px;
+    transition: 1.5s;
+    height: 250px;
+    border-radius: 20px;
+} 
+li{
+    list-style: none;
+}
+.LanguageList,.FrameWorkList{
+  margin-right: 40px;
+}
+li>h3{
+    font-weight: 600;
+}
+.Language>h3,.FrameWorks>h3{
+    font-size: xx-large;
+}
+.ConceptImg > img{
+    width: 350px;
+    height: 175px;
+    margin: 0 20px;
+}
+.Image{
+    display: flex;
+    overflow: hidden;
+}
+.ConceptImg{
+    display: flex;
+    animation: ScrollImage 15s linear infinite;
+}
+
+@keyframes ScrollImage{
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.Concepts{
+    margin: 20px 0;
+}
+.ConceptTitle{
+    text-align: center;
+}
+.HeadingSkill>h1{
+    text-align: center;
+    font-size: 50px;
+}

@@ -17,7 +17,7 @@ function Protfolio() {
             <h1>Prepared to join your team as a Full-Stack Developer</h1>
             <div className='FooterButton'>
                 <p>Skilled developer looking for full-stack development opportunities</p>
-                <button>Hire</button>
+                <button onClick={() => window.open('mailto:chaitanya.vidudhala@gmail.com')}>Hire</button>
             </div>
         </div>
     </div>
