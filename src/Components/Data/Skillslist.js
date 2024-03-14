@@ -21,6 +21,16 @@ import kafka from '../Design/kafka.png';
 import dockers from '../Design/docker.png';
 import kubernetes from '../Design/Kubernetes.jpeg';
 import apache from '../Design/Apache.png';
+import aws1 from '../Design/aws1.png';
+import aws2 from '../Design/aws2.png';
+import aws3 from '../Design/aws3.png';
+import aws4 from '../Design/aws4.png';
+import aws5 from '../Design/aws5.png';
+import aws6 from '../Design/aws6.png';
+import aws7 from '../Design/aws7.png';
+import aws8 from '../Design/aws8.png';
+import awsVideo from '../Design/Videos/chaitu_output.mp4';
+
 export const skillList = [
    {
     Technology:'Front-end Technology',
@@ -59,3 +69,5 @@ export const concept = [{
     name: 'Other Skills',
     skills: [git,graph,apache,kubernetes,dockers,kafka]
 }]
+
+export const awsImg = [aws1,aws2,aws3,aws4,aws5,aws6,aws7,aws8,awsVideo]

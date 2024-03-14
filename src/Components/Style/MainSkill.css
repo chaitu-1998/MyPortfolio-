@@ -19,19 +19,6 @@
     border-radius: 20px;
     
 }
-/* .ImageSkill::before{
-    content: '';
-    position: absolute;
-    background-image: url('../Design/background.jpeg');
-    background-size: cover;
-    filter: blur(5px);
-    z-index: -1;
-    width: 900px;
-    height: 415px;
-    margin-left: 105px;
-    box-shadow: 5px 5px 19px #626467;
-
-}  */
 .SkillPara{
     text-align: center;
 }
@@ -55,7 +42,7 @@
     height: 250px;
     border-radius: 20px;
 } 
-li{
+.LanguageList>li{
     list-style: none;
 }
 .LanguageList,.FrameWorkList{

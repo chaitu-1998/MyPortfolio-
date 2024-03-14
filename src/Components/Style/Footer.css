@@ -39,3 +39,8 @@ h2
 {
     font-family: math;
 }
+.RightFooter>a:hover{
+    color: rgb(202, 87, 87);
+    font-size: x-large;
+    cursor: pointer;
+}

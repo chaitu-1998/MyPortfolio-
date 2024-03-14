@@ -15,8 +15,7 @@ export default function Headers()
                <Link to='/'> <h1>Chaitanya Vidudhala</h1></Link>
             </div>
             <div className='Navigation'>
-                {/* <Link>About Me</Link> */}
-                <Link>Projects</Link>
+                <Link to='/Projects'>Projects</Link>
                 <Link to='/MainSkills'>Skills</Link>
                 <Link to='/Contact'>Contact</Link>
             </div>

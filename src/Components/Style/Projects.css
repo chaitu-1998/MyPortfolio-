@@ -1,0 +1,40 @@
+.ProjectOne>h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.ProjectOneImage>img,.ProjectOneImage>video{
+    height: 365px;
+    width: 600px;
+    
+}
+.ProjectOneImage{
+    display: flex;
+}
+
+.ProjectOneImageSection button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.back,.next{
+    top: 160px;
+}
+.ProjectOneImageSection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ProjectOne{
+    line-height: 2;
+}
+.nextDone{
+    opacity: 0;
+}
+.backDone{
+    opacity: 0;
+}
+.ProjectOneImage img,.ProjectOneImage video{
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+}
